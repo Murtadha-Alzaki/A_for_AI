@@ -1,3 +1,12 @@
+/*
+***************************************
+I will make some changes.
+See how it looks when someone else
+contributes to your code.
+The changes that I will make will be in c++ 
+so it won't work in your code. It's just for 
+learning purposes.
+*/
 public class App {
 private String name ;
 private double rate;
@@ -35,4 +44,19 @@ public String getName(){
         }
     }}
 
+// This is a hello world program in c++
 
+// First include this library which allows you
+// to use input and output streams
+#include<iostream>
+
+// Then add the following to be able
+// to use "methods" and other stuff 
+// from the "iostream" library
+using namespace std;
+
+int main(){
+    // cout is: console out, which outputs to the console.
+    // endl is: the linebreak.Same as "br" in HTML.
+ cout<<"Hello World!"<<endl;   
+}
