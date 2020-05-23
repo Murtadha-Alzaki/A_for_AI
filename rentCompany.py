@@ -1,5 +1,6 @@
 
-codeString = input("Enter any code to start and q or Q to end: \n")
+codeString = input("Enter any code to start and q or Q to end: \n") # instead of this you can simply assign any code 
+                                                                    # to codeString without asking the user.
 
 Budeget = 0
 Days = 0
@@ -20,9 +21,9 @@ while (codeString != ("Q" )) and codeString != "q" :
         mileIntheStart = int(input("Enter the mile at the start of the rental  : \n"))
         mileAtTheEnd = int(input("Enter the mile at the end of rental \n"))
         mile = mileAtTheEnd - mileIntheStart
-        print("The vichle was rented for ", Days, "days")
-        print("The vichle mile read at the start of rent is ", mileIntheStart, "miles")
-        print("The vichle mile read at the end of the rent is ", mileAtTheEnd,"miles")
+        print("The vehicle was rented for ", Days, "days")
+        print("The vehicle mile read at the start of rent is ", mileIntheStart, "miles")
+        print("The vehicle mile read at the end of the rent is ", mileAtTheEnd,"miles")
         print("The mile driven by the costumer is ", mile, "miles")
         charge = charge + (mile*0.25)
         print("The total charge is " , charge )
@@ -32,8 +33,8 @@ while (codeString != ("Q" )) and codeString != "q" :
         print("Enter the number of days ")
         Days = int(input())
         charge = 190 * Days
-        mileIntheStart = int(input("Enter the mile at the start of the rental  : \n"))
-        mileAtTheEnd = int(input("Enter the mile at the end of rental \n"))
+        mileIntheStart = int(input("Enter the mile at the start of the rental  : \n")) # make this float instead of int 
+        mileAtTheEnd = int(input("Enter the mile at the end of rental \n"))            # because usually mile are not always integers.
         mile = mileAtTheEnd - mileIntheStart
         print("The vichle was rented for ", Days, "days")
         print("The vichle mile read at the start of rent is ", mileIntheStart, "miles")
