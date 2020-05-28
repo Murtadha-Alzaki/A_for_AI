@@ -15,7 +15,7 @@ myline= np.linspace(1,22,100)
 # and it will predict the speed at that time, notice that these a
 #polonomila regression and it will predict based on the above data
 speed = mymodel(17)
-print("THe speed is ",speed)
+print("The speed is ",speed)
 plt.scatter(x,y)
 plt.plot(myline,mymodel(myline))
 plt.show()
